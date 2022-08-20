@@ -1,0 +1,39 @@
+<html> 
+<head>
+    <title>Greeting Message</title> 
+    <style>
+      #lbl {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 16pt;
+        font-size: 18pt;
+        color: #ff5757;
+        padding: 5px;
+        border: 1px solid #ffffff;
+@@ -22,7 +22,7 @@
+      }
+
+      #date{
+          font-size:11pt;
+          font-size:12pt;
+          font-weight: bold;
+      }
+
+      body{
+          background-color: #ffffff;
+      }
+    </style>
+</head>
+<body>
+    <div id="lbl"></div>
+</body>
+<script>
+    var weekday = new Array(7);
+    weekday[0] = "sunday";
+    weekday[1] = "monday";
+    weekday[2] = "tuesday";
+    weekday[3] = "wednesday";
+    weekday[4] = "thursday";
+    weekday[5] = "friday";
+    weekday[6] = "saturday";
+    const monthNames = ["january", "february", "march", "april", "may", "june",
